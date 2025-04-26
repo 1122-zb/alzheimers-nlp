@@ -1,21 +1,29 @@
-# alzheimers-symptom-nlp
-SYSEN5630-NLP project for detecting Alzheimer's-related symptoms from PubMed abstracts
+## Important Notes about the Files
 
-# Alzheimer's Symptom Detection from PubMed Abstracts
+- `.ipynb` (Jupyter Notebooks): 
+  - Contain the full code for symptom identification, risk factor identification, and keyword selection.
+  - Some notebooks may not render properly on GitHub due to metadata issues, but they can be opened locally without problems.
 
-This project applies natural language processing (NLP) techniques to identify mentions of Alzheimer's-related symptoms (such as memory loss, confusion, and cognitive decline) in biomedical literature, specifically PubMed abstracts. The goal is to explore how transformer-based models can be used to assist in early symptom recognition by automatically classifying scientific abstracts based on symptom relevance.
+- `.pdf` Files:
+  - Each `.pdf` file is a static export of the corresponding `.ipynb` notebook.
+  - **The PDFs preserve the original outputs/results** generated when the notebooks were first executed, including:
+    - Model evaluation metrics (accuracy, precision, recall, F1-score)
+    - Confusion matrices
+    - Sample predictions
+  - If you cannot open the `.ipynb` correctly online, you can directly check the `.pdf` to review the results.
 
-## 📊 Task Description
+- `.zip` Files:
+  - Each `.zip` archive contains the datasets used for model training and evaluation.
+  - These datasets were derived from PubMed abstracts and labeled based on specific keyword rules for symptoms and environmental risk factors.
 
-- **Input**: Abstracts from PubMed related to Alzheimer's disease.
-- **Output**: Binary classification — does the abstract mention symptoms (`1`) or not (`0`)?
-- **Approach**: We use both traditional machine learning (TF-IDF + Logistic Regression) and transformer-based models (DistilBERT) for classification.
+---
 
-## 🧠 Models Used
+## Quick Overview
 
-- ✅ `TF-IDF + Logistic Regression` (baseline)
-- ✅ `DistilBERT` fine-tuned using HuggingFace's `Trainer`
-- ✅ Symptom keyword detection using `spaCy` + `EntityRuler`
+| File Type | Content Description |
+|:---|:---|
+| `.ipynb` | Full code (symptom/risk factor identification) |
+| `.pdf` | Final results (saved outputs of original runs) |
+| `.zip` | Datasets for training and testing |
 
-## 📁 Project Structure
-
+---
