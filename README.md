@@ -1,4 +1,4 @@
-# Final Project - Alzheimer's Disease Abstract Analysis
+# SYSEN5630 Final Project - Alzheimer's Disease Abstract Analysis
 
 ## Project Overview
 This project applies machine learning techniques to automatically identify:
