@@ -30,7 +30,7 @@ from PubMed abstracts related to Alzheimer's disease.
 
 Some of the Jupyter Notebooks (`.ipynb`) in this repository may not render properly in the GitHub web interface due to metadata inconsistencies.
 
-✅ However, the notebooks are fully functional and can be viewed and executed locally using:
+However, the notebooks are fully functional and can be viewed and executed locally using:
 - **VS Code** with Jupyter extension
 - **Google Colab** (Upload manually)
 - **Jupyter Notebook / JupyterLab**
